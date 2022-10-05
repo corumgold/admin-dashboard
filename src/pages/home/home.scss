@@ -1,7 +1,14 @@
 .home {
   display: flex;
+
   .homeContainer {
     flex: 6;
-  }
   
+    .widgets {
+      display: flex;  
+      padding: 20px;
+      // same as adding padding to each individual flex item
+      gap: 20px;
+    }
+  }
 }
