@@ -11,7 +11,7 @@ import {
   LocalShippingOutlined,
   CreditCardOutlined,
   StoreOutlined,
-  PersonOutlined
+  PersonOutlined,
 } from "@mui/icons-material";
 const Sidebar = () => {
   return (
@@ -29,29 +29,29 @@ const Sidebar = () => {
           </li>
           <p className="title">LISTS</p>
           <li>
-          <PersonOutlined className="icon" />
+            <PersonOutlined className="icon" />
 
             <span>Users</span>
           </li>
           <li>
-          <StoreOutlined className="icon" />
+            <StoreOutlined className="icon" />
             <span>Products</span>
           </li>
           <li>
-          <CreditCardOutlined className="icon" />
+            <CreditCardOutlined className="icon" />
             <span>Orders</span>
           </li>
           <li>
-          <LocalShippingOutlined className="icon" />
+            <LocalShippingOutlined className="icon" />
             <span>Delivery</span>
           </li>
           <p className="title">USEFUL</p>
           <li>
-          <InsertChartOutlined className="icon" />
+            <InsertChartOutlined className="icon" />
             <span>Stats</span>
           </li>
           <li>
-          <NotificationsNoneOutlined className="icon" />
+            <NotificationsNoneOutlined className="icon" />
             <span>Notifications</span>
           </li>
           <p className="title">SERVICE</p>
@@ -64,21 +64,24 @@ const Sidebar = () => {
             <span>Logs</span>
           </li>
           <li>
-          <SettingsApplicationsOutlined className="icon" />
+            <SettingsApplicationsOutlined className="icon" />
             <span>Setting</span>
           </li>
           <p className="title">USER</p>
           <li>
-          <AccountCircleOutlined className="icon" />
+            <AccountCircleOutlined className="icon" />
             <span>Profile</span>
           </li>
           <li>
-          <ExitToAppOutlined className="icon" />
+            <ExitToAppOutlined className="icon" />
             <span>Logout</span>
           </li>
         </ul>
       </div>
-      <div className="bottom">color options</div>
+      <div className="bottom">
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+      </div>
     </div>
   );
 };
